@@ -1,58 +1,77 @@
-# requirement-analysis in softwre development
-Overview
+# Requirement Analysis in Software Development
 
-Requirement Analysis is a critical phase in the software development life cycle (SDLC) where the needs and expectations of stakeholders are gathered, documented, and analyzed. The goal is to ensure the final software product meets business and user requirements effectively.
+---
 
-Purpose
+## What is Requirement Analysis?
+Requirement Analysis is a critical phase in the **Software Development Life Cycle (SDLC)** where the needs, expectations, and constraints of stakeholders are gathered, analyzed, and documented.  
+It ensures that the software developed aligns with business goals and user needs. During this phase, both functional and non-functional requirements are identified, which helps prevent misunderstandings and reduces the risk of costly errors later in the development process.
 
-Understand what the users need and why they need it.
+---
 
-Define functional and non-functional requirements clearly.
+## Why is Requirement Analysis Important?
+Requirement Analysis is vital in SDLC for several reasons:
 
-Prevent miscommunication and costly mistakes later in the development process.
+- **Clarity and Understanding:** Ensures all stakeholders have a shared understanding of what the system should achieve.  
+- **Resource Optimization:** Helps plan resources, timelines, and effort effectively, reducing waste and improving efficiency.  
+- **Risk Reduction:** Identifies potential issues early, minimizing errors and rework in later stages of development.  
 
-Key Steps
+---
 
-Requirement Gathering
+## Key Activities in Requirement Analysis
+The key activities involved in Requirement Analysis include:
 
-Engage with stakeholders through interviews, surveys, or workshops.
+- **Requirement Gathering:** Collecting information from stakeholders using interviews, surveys, and observations.  
+- **Requirement Elicitation:** Engaging stakeholders to extract detailed requirements and expectations.  
+- **Requirement Documentation:** Recording requirements clearly in a structured format, often in a Software Requirement Specification (SRS) document.  
+- **Requirement Analysis and Modeling:** Evaluating feasibility, consistency, and completeness; modeling workflows and system interactions using diagrams.  
+- **Requirement Validation:** Confirming that documented requirements accurately reflect stakeholder needs and resolving ambiguities.
 
-Collect both functional (features, tasks) and non-functional (performance, security) requirements.
+---
 
-Requirement Analysis
+## Types of Requirements
 
-Evaluate feasibility, consistency, and completeness of gathered requirements.
+### Functional Requirements
+Functional requirements define **what the system should do**. Examples for the booking management system include:  
+- User can search for available properties.  
+- Users can book a property and receive confirmation.  
+- Admin can manage property listings.  
 
-Prioritize requirements based on importance and impact.
+### Non-functional Requirements
+Non-functional requirements define **how the system performs its functions** and other constraints. Examples include:  
+- System must respond to search queries within 2 seconds.  
+- Application must support at least 500 concurrent users.  
+- Data must be encrypted during transmission to ensure security.  
 
-Requirement Specification
+---
 
-Document requirements in a Software Requirement Specification (SRS).
+## Use Case Diagrams
+Use Case Diagrams are visual representations of the interactions between **actors** (users or external systems) and the system. They help clarify requirements, identify actors, and define system functionalities.  
 
-Include use cases, user stories, and system workflows.
+![Booking System Use Case Diagram](alx-booking-uc.png)  
+*Figure: Use Case Diagram for Booking Management System*  
 
-Requirement Validation
+**Benefits:**  
+- Provides a clear overview of system functionality  
+- Helps identify missing requirements early  
+- Facilitates communication between stakeholders and developers  
 
-Verify requirements with stakeholders to ensure they are accurate and achievable.
+---
 
-Resolve ambiguities or conflicts.
+## Acceptance Criteria
+Acceptance Criteria define the **conditions that a feature must satisfy** to be considered complete and acceptable. They ensure that development aligns with stakeholder expectations and quality standards.
 
-Importance
+**Importance:**  
+- Provides clear, testable conditions for feature completion  
+- Helps developers understand what “done” looks like  
+- Facilitates validation during manual or automated testing  
 
-Reduces development errors and rework.
+**Example – Checkout Feature:**  
+- User can review selected booking details before payment.  
+- Payment is successfully processed using multiple payment options.  
+- Confirmation email is sent immediately after booking.  
+- Error messages are displayed for invalid payment or incomplete information.  
 
-Helps project managers plan resources and timelines effectively.
+---
 
-Ensures the final product aligns with stakeholder expectations.
-
-Best Practices
-
-Maintain clear and concise documentation.
-
-Use visual models like UML diagrams, flowcharts, or prototypes.
-
-Involve stakeholders throughout the SDLC to confirm requirements.
-
-Continuously review and update requirements as the project evolves.
 
 
