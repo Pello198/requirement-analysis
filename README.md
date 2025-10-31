@@ -71,6 +71,8 @@ Acceptance Criteria define the **conditions that a feature must satisfy** to be 
 - Confirmation email is sent immediately after booking.  
 - Error messages are displayed for invalid payment or incomplete information.  
 
+![Use Case Diagram](alx-booking-uc.png)
+
 ---
 
 
